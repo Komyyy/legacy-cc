@@ -1,1 +1,3 @@
-import LegacyCC.Basic
+module
+
+public import LegacyCC.CC
