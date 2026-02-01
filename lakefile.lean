@@ -12,7 +12,7 @@ package "legacy-cc" where
   ]
   testDriver := "LegacyCCTest"
 
-require "leanprover-community" / "mathlib" @ git "v4.27.0-rc1"
+require "leanprover-community" / "mathlib"
 
 @[default_target]
 lean_lib «LegacyCC» where
